@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vue.AccueilController">
+   <children>
+      <ImageView fitHeight="607.0" fitWidth="606.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Ressources/floor.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="XO" layoutX="487.0" layoutY="77.0" mnemonicParsing="false" onAction="#handlebuttonXO" text="XO" />
+      <Button fx:id="P4" layoutX="461.0" layoutY="150.0" mnemonicParsing="false" onAction="#handlebuttonP4" text="Puissance4" />
+      <Button fx:id="Dames" layoutX="474.0" layoutY="187.0" mnemonicParsing="false" onAction="#handelbuttonDames" text="Dames" />
+      <Button fx:id="j2048" layoutX="480.0" layoutY="220.0" mnemonicParsing="false" onAction="#handelbutton2048" text="2048" />
+      <Button fx:id="Quitter" layoutX="474.0" layoutY="255.0" mnemonicParsing="false" onAction="#handelbuttonQuitter" text="Quitter" />
+      <Button fx:id="Othello" layoutX="474.0" layoutY="111.0" mnemonicParsing="false" onAction="#handlebuttonOthello" prefWidth="65.0" text="Othello" />
+   </children>
+</AnchorPane>

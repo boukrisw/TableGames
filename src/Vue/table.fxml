@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#keyPressed" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vue.TableController">
+   <children>
+      <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="15.0" prefHeight="34.0" prefWidth="600.0" spacing="250.0">
+         <children>
+            <Label fx:id="label1" text="player" textFill="#f9ff2f">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label id="label2" fx:id="label2" text="player" textFill="#3aa7db">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Canvas fx:id="canvas" height="282.0" layoutX="46.0" layoutY="59.0" nodeOrientation="INHERIT" onMouseClicked="#setOnMouseClicked" width="508.0" />
+      <HBox layoutY="348.0" prefHeight="58.0" prefWidth="606.0">
+         <children>
+            <Button fx:id="Accueil" mnemonicParsing="false" onAction="#handleButtonAccueil" text="Accueil" />
+            <Button fx:id="Quitter" mnemonicParsing="false" onAction="#handleButtonQuitter" text="Quitter" />
+         </children>
+      </HBox>
+      <DialogPane fx:id="dialogPaneVictoire" layoutX="70.0" layoutY="32.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="480.0">
+          <header>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="LabelGagnant" layoutX="111.0" layoutY="44.0" prefHeight="100.0" prefWidth="258.0" />
+               </children>
+            </AnchorPane>
+          </header>
+          <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="AccueilG" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonAccueilG" text="Accueil" />
+                  <Button fx:id="QuitterG" layoutX="402.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonQuitterG" text="Quitter" />
+                  <Button fx:id="RejouerG" layoutX="174.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonRejouerG" prefHeight="26.0" prefWidth="133.0" text="Rejouer" />
+               </children>
+            </AnchorPane>
+          </content>
+          <expandableContent>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+          </expandableContent>
+      </DialogPane>
+   </children>
+</AnchorPane>

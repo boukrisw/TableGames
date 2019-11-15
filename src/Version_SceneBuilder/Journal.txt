@@ -1,0 +1,54 @@
+********************************************************************************************
+***********************           projet-TableGames                  ***********************
+***********************         03/07/19 -- 28/07/19                 ***********************
+***********************           BOUKRIS Walid                      ***********************
+********************************************************************************************
+
+
+03/07/2019:
+    <> Idée de projet.
+    <> Listes des jeux: Puissance4, XO, 2048, Dames, Fanorona
+    <> Taches dans leurs ordre: Modele de chaque jeu, IHM + Vue + Controleur, puis IA.
+
+04/07/2019:
+    <> Debut de Modele de Puissance4, XO.
+
+05/07/2019:
+    <> Finition de Modele de Puissance4, XO.
+
+06/07/2019:
+    <> Debut de Modele de 2048, Dames.
+    <> Ajout de jeu Ludo a la liste des jeux.
+    <> Finition de Modele de Dames.
+    <> Probleme au niveau de JouerCoup dans 2048
+
+07/07/2019:
+    <> Debut de Modele de Ludo.
+    <> Arret dans le Modele de Ludo (Annulé pour le moment!).
+
+08/07/2019:
+    <> Repos
+
+
+09/07/2019:
+    <> Avancement dans l'IHM des tests surtout le jeu XO.
+    <> Probleme au niveau de la gestion de Jeu dans InterfaceGraphique!
+
+10/07/2019:
+    <> Avancement dans l'IHM des tests surtout le jeu P4.
+    <> toujours un grand Probleme au niveau de la gestion de Jeu dans InterfaceGraphique!
+
+
+**********************************A Venir***************************************************
+********  > Faire l'IHM a l'aide de SceneBuilder.                                   ********
+********  > Finir le Modele de 2048. (À voir aprés) /!\JouerCoup!!!                 ********
+********  > Commencer un IHM Basic pour les tests (1er Version).                    ********
+********  > Ajout d'une partie resaux (Possibilité de jouer sous un Résaux)         ********
+********************************************************************************************
+
+
+**********************************Annulé****************************************************
+********  > L'IHM Basic pour les tests (1er Version).                               ********
+********  > Ludo                                                                    ********
+********  > Finir le Modele de Ludo.Fair une listeChainé pour representé le plateau ********
+********************************************************************************************
