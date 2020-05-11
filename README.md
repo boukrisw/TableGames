@@ -6,4 +6,4 @@ Mes missions etaient de faire le model de jeu(deroulement d'une partie, differen
 Y'a aussi une possibilité de faire une partie en reseau!
 La partie IHM est faite par l'outil SceneBuilder.
 
-Exécution du projet: $Le fichier JavaFXApplication3.jar
+Exécution du projet: $java -jar JavaFXApplication3.jar
